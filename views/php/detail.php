@@ -312,7 +312,7 @@ if (!$event) {
             <div>
               <div class="detail-meta-label">Ubicación</div>
               <div class="detail-meta-value">
-                <?php echo htmlspecialchars($event['name'] ?? 'Por confirmar'); ?>
+                <?php echo htmlspecialchars($event['location'] ?? 'Por confirmar'); ?>
               </div>
             </div>
           </div>
